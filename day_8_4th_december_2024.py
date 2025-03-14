@@ -24,7 +24,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-print("Lets Discuss!!")
+print("Lets Discuss on WebScraping!!")
+
 base_url = "http://books.toscrape.com/index.html"
 home_page = requests.get(base_url)
 #print(home_page.content)
