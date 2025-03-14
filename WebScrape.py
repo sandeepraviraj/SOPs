@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pandas as pd
 
-
+print("Let's Start doing some webScraping!!")
 def scrapeBook(book_url):
   book_page = requests.get(book_url).content
   book_soup = BeautifulSoup(book_page, "html.parser")
